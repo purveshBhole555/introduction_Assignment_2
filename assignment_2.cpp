@@ -55,6 +55,37 @@ Enter the radius and height
 the volume of a cylinder is 200.96 
 
 
+// Q5 
+
+char char1, char2;
+
+cout << "Enter the first character: ";
+cin >> char1;
+
+std::cout << "Enter the second character: ";
+cin >> char2;
+
+int ascii1 = static_cast<int>(char1);
+int ascii2 = static_cast<int>(char2);
+int difference = ascii1 - ascii2;
+
+cout << "The difference between the ASCII values of '" << char1 << "' and '" << char2 << "' is: " << difference << endl;
+
+// output is 
+
+Enter the first character: A
+Enter the second character: z
+The difference between the ASCII values of 'A' and 'z' is: -25
+
+
+
+//Q6
+
+int i = ( 4 + 7 / 5 * 6 * 6+9 )% 100 ;
+cout<<i;
+
+// output is 49
+
 
 
 
